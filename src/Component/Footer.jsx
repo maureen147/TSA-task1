@@ -54,16 +54,16 @@ const Footer = () => {
           <a href="#testimonials" className="footer-link">Testimonials</a>
         </nav>
         <div className="footer-social-icons">
-          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+          <a href="#" className="footer-link">
             <FacebookF />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+          <a href="#"  className="footer-link">
             <Instagram />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+          <a href="#" className="footer-link">
             <Twitter />
           </a>
-          <a href="#" target="_blank" rel="noopener norefer" className="footer-link">
+          <a href="#" className="footer-link">
             <LinkedinIn />
           </a>
         </div>
