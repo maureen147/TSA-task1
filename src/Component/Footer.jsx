@@ -36,7 +36,7 @@
 // export default Footer
 
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FacebookF, Instagram, Twitter, LinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -54,17 +54,17 @@ const Footer = () => {
           <a href="#testimonials" className="footer-link">Testimonials</a>
         </nav>
         <div className="footer-social-icons">
-          <a href="https://facebook.com/hardemola.horlaitan" target="_blank" rel="noopener noreferrer" className="footer-link">
-            <FaFacebookF />
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+            <FacebookF />
           </a>
-          <a href="https://instagram.com/bigpicturematic" target="_blank" rel="noopener noreferrer" className="footer-link">
-            <FaInstagram />
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+            <Instagram />
           </a>
-          <a href="https://twitter.com/bigpicturematic" target="_blank" rel="noopener noreferrer" className="footer-link">
-            <FaTwitter />
+          <a href="#" target="_blank" rel="noopener noreferrer" className="footer-link">
+            <Twitter />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">
-            <FaLinkedinIn />
+          <a href="#" target="_blank" rel="noopener norefer" className="footer-link">
+            <LinkedinIn />
           </a>
         </div>
       </div>
