@@ -53,7 +53,7 @@ const Footer = () => {
           <a href="#contact" className="footer-link">Contact</a>
           <a href="#testimonials" className="footer-link">Testimonials</a>
         </nav>
-        <div className="footer-social-icons">
+        {/* <div className="footer-social-icons">
           <a href="#" className="footer-link">
             <FacebookF />
           </a>
@@ -66,7 +66,7 @@ const Footer = () => {
           <a href="#" className="footer-link">
             <LinkedinIn />
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="footer-bottom">
         <p className="footer-text">
