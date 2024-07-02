@@ -36,7 +36,11 @@
 // export default Footer
 
 import React from 'react';
-import { FacebookF, Instagram, Twitter, LinkedinIn } from 'react-icons/fa';
+import image1 from '../assets/images/Facebook-1.png'
+import image2 from '../assets/images/Instagram.png'
+import image3 from '../assets/images/Twitter.png'
+import image4 from '../assets/images/LinkedIn.png'
+
 
 const Footer = () => {
   return (
@@ -53,6 +57,12 @@ const Footer = () => {
           <a href="#contact" className="footer-link">Contact</a>
           <a href="#testimonials" className="footer-link">Testimonials</a>
         </nav>
+        <div className="footer-social-icons">
+          <img src={image1} alt=""  />
+          <img src={image2} alt="" />
+          <img src={image3} alt="" />
+          <img src={image4} alt=""/>
+        </div>
         {/* <div className="footer-social-icons">
           <a href="#" className="footer-link">
             <FacebookF />

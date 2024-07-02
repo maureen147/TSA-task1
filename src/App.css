@@ -893,18 +893,21 @@
 .footer-link:hover {
   color: #2d3748;
 }
-
+.footer-social-icons{
+  color: #4a5568;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .footer-social-icons {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
 }
-
-.footer-social-icons a {
-  color: #4a5568;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.footer-social-icons img{
+  width: 20px;
+  padding: 1rem;
 }
+
 
 .footer-social-icons a:hover {
   color: #2d3748;
